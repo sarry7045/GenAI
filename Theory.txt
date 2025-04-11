@@ -1,5 +1,5 @@
-TODO : Need to Install All Packages to Run this Project (Watch ZOOM Video aroiund 1.10 Hours Time Stamp) for this.
+pip install package_name - for install packages
+pip freeze > requirements.txt
+python file_name - for run the code
 
-1) LLM Temprature - If Temprature is less then it will give Proper and Valid Response, and when Temprature is More then Response will be Random, like extra Words and Sentence (No filter).
-
-Use DeepSeek, Gemini - API Key
+GenAI Main Main Topics with Explanation : Like Temprature etc.

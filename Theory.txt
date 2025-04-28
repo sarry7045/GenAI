@@ -1,5 +1,52 @@
 pip install package_name - for install packages
 pip freeze > requirements.txt
 python file_name - for run the code
+.\venv\Scripts\activate - for activate the venv
+python install -r requirements.txt
 
-GenAI Main Main Topics with Explanation : Like Temprature etc.
+docker compose up - for run the .yml file
+uvicorn ollama_api:app  --port 8000 - to start the fastApi app
+http://127.0.0.1:8000/docs#/default/chat_chat_post - URL of fastApi app
+
+docker compose -f docker-compose.db.yml up - for Run the docker Image
+
+
+Hugging Face - AI Community
+
+Fine Tuning - Model ko apne hisab se train krna, khudka context and data dena n all
+
+Flux - Is a Transforer for the convert text to image
+
+RAG - Give the LLM to Some real time data context
+
+Solve the issue and Judge the Response - Techique
+
+Diffrence Between Fine Tuning and RAG ?
+
+Vector Embeddings - Semantic Meaning Dena 3D Space
+
+Context window - Means LLM k kitna Previous chat ka context save krke rakh sakta hai
+
+LangChain - 
+
+Step Back Prompting -
+
+Enrichment Node - User Query lo and uske aur bhi queries banao using multiple LLM Models
+
+Query Translation > Routing (Logical Routing) - Measn LLM will decide ki usko kaha se data uthana hai based on User Query (Currect Data Source , Currect Model)
+Semantic Routing - For some specific Topics
+
+Ideas for AI Agents : Gym MemberShip Checker, Something about Stock Market, Meeting analyzer, Doctors Precreption. 
+
+Neo4J - Specialized for Graphs - Knowledge Graph
+
+mem0AI
+
+docker compose -f docker-compose.graph.yml up
+
+
+
+
+
+uv - pip install uv, uv init project-name, uv run main.py, ud add package_name, uv build
+Suppose if we want to run project without installing the dependencies - uv run --with 'fastApi' main.py

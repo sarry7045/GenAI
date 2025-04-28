@@ -18,7 +18,7 @@ split_docs = text_splitter.split_documents(documents=docs)
 
 embedder = OpenAIEmbeddings(
     model="text-embedding-3-large",
-    api_key = "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",
+    api_key = "",
 )
 
 vector_store = QdrantVectorStore.from_documents(

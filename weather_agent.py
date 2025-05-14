@@ -3,21 +3,18 @@ import requests
 from dotenv import load_dotenv
 from openai import OpenAI
 import os
-
+from langsmith.wrappers import wrap_openai
+from langsmith import traceable
 
 load_dotenv()
+client = wrap_openai(OpenAI())
 
-client = OpenAI()
-
-
-# def query_db(sql):
-#     pass
-
-
+@traceable
 def run_command(command):
     result = os.system(command=command)
     return result
 
+@traceable
 def get_weather(city: str):
     print("🔨 Tool Called: get_weather", city)
     
@@ -28,6 +25,7 @@ def get_weather(city: str):
         return f"The weather in {city} is {response.text}."
     return "Something went wrong"
 
+@traceable
 def add(x, y):
     print("🔨 Tool Called: add", x, y)
     return x + y

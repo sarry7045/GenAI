@@ -34,7 +34,7 @@ LangSmith - for Tracking our API Key usage, User prompt a to z details of user a
 LangFuse - Free Alternative of LangSmith 
 LangGraph - It Says ki aap harr chiz ko or code ko ek graph k form me structure karo - Code Block then Define Flow
 
-MCP Servers (Model Context Protocol)
+MCP Servers (Model Context Protocol) - Basicaly we can say it's a standard of Making AI Agent - Example : RestFul API's
 A2A - Example: You seen (Login with google) Button everywhere but once we try to login it will Redirect to the same login page of Google, that means the Solution or Context is same for all, But Product is one.
 
 
@@ -43,6 +43,16 @@ Controlled Autonomous Flow
 LORA, Quantization , QLORA
 What is the difference between streaming and non-streaming responses in LLMs
 
+
+RAG - Example : Refer Some External Information (Other Vector Database - Everthing is stored in a form Vector Embeddings)
+Fine Tuning - Suppose LLM does'nt have the context of some Topic so we can train the LLM with that data and conetxt
+AI Agent - In Case if we ask some question to LLM and LLM does'nt have the data access foe that so it will call some tools related to that Question - Example Weather, Stock market Price
+Agentic AI - Convert YT Video to Blog - There is a multiple steps to complete this task , then we need to create multiple AI Agent for specific tasks - Multiple Agents Collabrating Each Other
+Standard models - Prediction based on large datasets
+Reasoning models - Focus on Logic , Problem Solving, Understaing Relationships
+Embeddings and - Embeddings are numerical representations of data points
+Vector Search - Vector search then uses these embeddings to find data points that are similar to a given query
+Multiple Agent - Example Traffic light - Milke Kaam krna
 
 
 Ideas for AI Agents : Gym MemberShip Checker, Something about Stock Market, Meeting analyzer, Doctors Precreption, PR Review by AI, Resume check and give the Interview questions

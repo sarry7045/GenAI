@@ -11,6 +11,7 @@ Suppose if we want to run project without installing the dependencies - uv run -
 docker compose -f docker-compose.db.yml up - for Run the docker Image
 docker compose -f docker-compose.graph.yml up
 
+
 Vector Embeddings - It will Break the words in Some code like suppose in ChatGPT - Hey Hi Suraj - It wil Convert into one Code like [123, 56, 89201]
 Context window - Means LLM k kitna Previous chat ka context save krke rakh sakta hai
 Enrichment Node - User Query lo and uske aur bhi queries banao using multiple LLM Models for Good and Accurate Questions
@@ -44,7 +45,7 @@ LORA, Quantization , QLORA
 What is the difference between streaming and non-streaming responses in LLMs
 
 
-RAG - Example : Refer Some External Information (Other Vector Database - Everthing is stored in a form Vector Embeddings)
+RAG - Example : Refer Some External Information (Other Vector Database - Everthing is stored in a form of Vector Embeddings)
 Fine Tuning - Suppose LLM does'nt have the context of some Topic so we can train the LLM with that data and conetxt
 AI Agent - In Case if we ask some question to LLM and LLM does'nt have the data access foe that so it will call some tools related to that Question - Example Weather, Stock market Price
 Agentic AI - Convert YT Video to Blog - There is a multiple steps to complete this task , then we need to create multiple AI Agent for specific tasks - Multiple Agents Collabrating Each Other
